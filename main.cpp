@@ -65,7 +65,7 @@ char ether_buffer[ETHER_BUFFER_SIZE+TMP_BUFFER_SIZE]; // ethernet buffer
 char tmp_buffer[TMP_BUFFER_SIZE+MAX_SOPTS_SIZE+1];		 // scratch buffer
 
 // ====== Object defines ======
-OpenSprinkler os; // OpenSprinkler object
+OpenSprinklerC os; // OpenSprinkler object
 ProgramData pd;		// ProgramdData object
 
 /* ====== Robert Hillman (RAH)'s implementation of flow sensor ======

@@ -23,7 +23,7 @@
 
 #include "utils.h"
 #include "OpenSprinkler.h"
-extern OpenSprinkler os;
+extern OpenSprinklerC os;
 
 #if defined(ARDUINO)	// Arduino
 

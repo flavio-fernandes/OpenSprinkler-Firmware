@@ -26,7 +26,7 @@
 #include "server.h"
 #include "weather.h"
 
-extern OpenSprinkler os; // OpenSprinkler object
+extern OpenSprinklerC os; // OpenSprinkler object
 extern char tmp_buffer[];
 extern char ether_buffer[];
 char wt_rawData[TMP_BUFFER_SIZE];

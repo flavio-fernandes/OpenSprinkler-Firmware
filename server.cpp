@@ -61,7 +61,7 @@
 
 extern char ether_buffer[];
 extern char tmp_buffer[];
-extern OpenSprinkler os;
+extern OpenSprinklerC os;
 extern ProgramData pd;
 extern ulong flow_count;
 

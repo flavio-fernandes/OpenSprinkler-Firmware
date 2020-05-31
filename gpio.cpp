@@ -329,7 +329,11 @@ static int HiPri (const int pri) {
 	else
 		sched.sched_priority = pri ;
 
+#ifdef __OSX_AVAILABLE
+	return 0;
+#else
 	return sched_setscheduler (0, SCHED_RR, &sched) ;
+#endif // ifdef __OSX_AVAILABLE
 }
 
 static int waitForInterrupt (int pin, int mS)

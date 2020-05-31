@@ -111,7 +111,7 @@ protected:
 
 };
 
-extern OpenSprinkler os;
+extern OpenSprinklerC os;
 
 class RuntimeQueueStruct {
 public:

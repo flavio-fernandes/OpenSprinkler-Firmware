@@ -135,7 +135,7 @@ struct ConStatus {
 extern const char iopt_json_names[];
 extern const uint8_t iopt_max[];
 
-class OpenSprinkler {
+class OpenSprinklerC {
 public:
 
 	// data members
